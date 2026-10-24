@@ -6,9 +6,9 @@ Bench owns the reading workspace and durable question queue. Codex owns the mode
 
 ## Watch the demo
 
-[![e-Bench in action: highlight a PDF, ask Codex, explore a chart, and save your notes](docs/media/e-bench-preview.gif)](https://github.com/green-gray-gaurav/e-Bench/blob/main/docs/media/e-bench-demo.mp4)
+[![e-Bench in action: highlight a PDF, ask Codex, explore a chart, and save your notes](docs/media/e-bench-preview.gif)](https://raw.githubusercontent.com/green-gray-gaurav/e-Bench/main/docs/media/e-bench-demo.mp4)
 
-**[Watch the full 30-second film with sound](https://github.com/green-gray-gaurav/e-Bench/blob/main/docs/media/e-bench-demo.mp4)** · [Download MP4](https://raw.githubusercontent.com/green-gray-gaurav/e-Bench/main/docs/media/e-bench-demo.mp4) · [Cover image](docs/media/e-bench-cover.jpg)
+**[Full 30-second film with sound (MP4)](https://raw.githubusercontent.com/green-gray-gaurav/e-Bench/main/docs/media/e-bench-demo.mp4)** · [Download MP4](https://raw.githubusercontent.com/green-gray-gaurav/e-Bench/main/docs/media/e-bench-demo.mp4) · [Cover image](docs/media/e-bench-cover.jpg)
 
 1080p at 60 fps, with original music. The preview shows the bundled sample book and illustrative answers, followed by the queue-driven MCP workflow.
 
