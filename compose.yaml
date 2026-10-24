@@ -1,0 +1,11 @@
+services:
+  bench:
+    build: .
+    ports:
+      - "127.0.0.1:8787:8787"
+    volumes:
+      - bench-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  bench-data:
