@@ -4,6 +4,14 @@ A local PDF reader and notebook that gets explanations from a connected Codex se
 
 Bench owns the reading workspace and durable question queue. Codex owns the model session and produces the answers. Bench does not call a model API directly.
 
+## Watch the demo
+
+[![e-Bench in action: highlight a PDF, ask Codex, explore a chart, and save your notes](docs/media/e-bench-preview.gif)](https://github.com/green-gray-gaurav/e-Bench/blob/main/docs/media/e-bench-demo.mp4)
+
+**[Watch the full 30-second film with sound](https://github.com/green-gray-gaurav/e-Bench/blob/main/docs/media/e-bench-demo.mp4)** · [Download MP4](https://raw.githubusercontent.com/green-gray-gaurav/e-Bench/main/docs/media/e-bench-demo.mp4) · [Cover image](docs/media/e-bench-cover.jpg)
+
+1080p at 60 fps, with original music. The preview shows the bundled sample book and illustrative answers, followed by the queue-driven MCP workflow.
+
 ## Features
 
 - One PDF per notebook, with remembered reading position.
@@ -203,7 +211,7 @@ This is a **single-user local prototype**, with no accounts or authentication. K
 
 Workspace data is persisted locally, but selected PDF text and page context are sent to the connected Codex session and its model provider. Visuals also use the host's image-generation service. Local storage does not mean inference happens offline.
 
-Git and Docker ignore rules exclude runtime data, databases, uploaded PDFs, generated-image directories, output, logs, credentials, and local Codex configuration. No workspace database, personal book, or generated reading artifact is included in the source repository.
+Git and Docker ignore rules exclude runtime data, databases, uploaded PDFs, generated-image directories, output, logs, credentials, and local Codex configuration. No personal notebooks, books, or generated answers are included. `docs/media/` contains only the deliberately published sample-product video, cover, and animated preview; production working files remain local.
 
 For backups, stop the service before copying its data directory, or use SQLite's backup facilities. Do not copy just the main SQLite file while WAL writes are active. Docker users should back up the named volume.
 
